@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+  <title>Live News feed</title>
+  <link href="public/bootstrap.css" rel="stylesheet">
+  <link href="public/grid.css" rel="stylesheet">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="public/js/news.js"></script>
+</head>
+<!-- <script>
+  $(function () {
+    var socket = io();
+
+    socket.on('msg', function(msg){
+      $('#message').append($('<div class=\'col-4\'>').text(msg.value));
+      console.log(msg)
+    });
+  });
+</script> -->
+
+<body>
+  <div class="container">
+    <h3>News Category Prediction</h3>
+    <div class="row" id = "message">
+       <!-- <div class="col-4">.col-4</div>
+      <div class="col-4">.col-4</div>
+      <div class="col-4">.col-4</div> -->
+    </div>
+
+
+
+  </div>
+  <!-- /container -->
+</body>
+
+</html>
