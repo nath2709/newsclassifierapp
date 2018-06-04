@@ -1,5 +1,5 @@
 body {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -25,3 +25,4 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.bg-teal { background-color: var(cyan) }
